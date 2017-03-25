@@ -48,7 +48,6 @@ Node * find(List * list, void * value)
 	Node * obj = list->begin;
 	while (obj != NULL)
 	{
-		printf("Szukam\n");
 		if (value == obj->value)
 		{	
 			return obj;
@@ -63,7 +62,6 @@ Node * find_end(List * list, void * value)
 	Node * obj = list->end;
 	while (obj != NULL)
 	{
-		printf("Szukam\n");
 		if (value == obj->value)
 		{
 			return obj;
